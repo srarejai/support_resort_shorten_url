@@ -1,0 +1,21 @@
+{
+    "name": "SupportResort/Shorten_URL",
+    "description": "Demo package for shortening or expanding URLs using the Google URL API service.",
+    "keywords": ["laravel", "demo"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Support Resort",
+            "email": "s.jayakumar@vanillanetworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SupportResort\\ShortenUrl\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.0",
+        "illuminate/support": "~5"
+    }
+}
